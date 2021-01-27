@@ -4,14 +4,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="example-pkg-YOUR-USERNAME-HERE", # Replace with your own username
+    name="voc-xml", # Replace with your own username
     version="0.0.1",
-    author="Example Author",
-    author_email="author@example.com",
-    description="A small example package",
+    author="Jason Li",
+    author_email="lzzduke06@gmail.com",
+    description="Package to generate and modify VOC label files",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/JasonDoingGreat/voc_xml",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
